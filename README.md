@@ -8,14 +8,17 @@ Esse repositório é para ser utilizado pelos grupos como um template inicial, d
 
 # NomedoProjeto
 
-**Número do Grupo**: XX<br>
+**Número do Grupo**: 2<br>
 **Código da Disciplina**: FGA0208-T01<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 202401000833  |  Eduardo Peruzzo |
+| 202401000493  |  Pedro dos Santos |
+| 202402159216  |  Vinicius da Luz |
+| 202402898892  |  Bárbara Malta |
+| 202403184672  |  Mateus Sachinho |
 
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
