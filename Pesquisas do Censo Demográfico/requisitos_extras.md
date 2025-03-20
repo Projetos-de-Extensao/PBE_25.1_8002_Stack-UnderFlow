@@ -1,4 +1,4 @@
-**REQUISITOS EXTRAS**
+# **REQUISITOS EXTRAS**
 
 1. Existem empregos exclusivos na ilha? Quais?
 2. Existe patrulhamento/policiamento na ilha? É satisfatório?
@@ -9,4 +9,5 @@
 7. Incidentes com animais ocorrem com frequência? Quantos por mês?
 8. O tempo de espera para a chegada de autoridades quando ocorre uma emergência é satisfatório?
 9. O descarte impróprio de resíduos afeta a qualidade da água? Como?
-10. Existem áreas de lazer? Quais e quantos?
+10. Existem áreas de lazer? Quais e quantas?
+11. Como o povoamento desordenado afeta tanto o meio ambiente quanto a vida dos moradores da ilha?
