@@ -26,7 +26,7 @@
     * não alfabetizados
 
 * Características dos domicílios: 
-    * conectados à rede de esgoto abastecidos pela rede geral de água
+    * conectados à rede de esgoto e abastecidos pela rede geral de água
     * tem banheiro de uso exclusivo
     * tem coleta de lixo
 
