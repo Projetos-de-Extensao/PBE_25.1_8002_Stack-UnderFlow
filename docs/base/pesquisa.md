@@ -1,4 +1,4 @@
-# Pesquisas relacionadas ao projeto
+# Pesquisa
 
 Pesquisa realizada para compreensão das principais características do projeto
 
@@ -65,7 +65,7 @@ Formulário IBGE: [Questionário](https://censo2022.ibge.gov.br/sobre/questionar
 
 ---
 
-## **REQUISITOS EXTRAS**
+## **Requisitos extras**
 
 1. Existem empregos exclusivos na ilha? Quais?
 2. Existe patrulhamento/policiamento na ilha? É satisfatório?
