@@ -20,6 +20,10 @@ Esse repositório é para ser utilizado pelos grupos como um template inicial, d
 | 202402898892  |  Bárbara Malta |
 | 202403184672  |  Mateus Sachinho |
 
+## Mapa mental
+
+[Mapa mental no canva](https://www.canva.com/design/DAGi2i6MryE/OP75rrcf3gHED32h_s2GKg/view?utm_content=DAGi2i6MryE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5929975859)
+
 ## Sobre 
 Descreva o seu projeto em linhas gerais. 
 
