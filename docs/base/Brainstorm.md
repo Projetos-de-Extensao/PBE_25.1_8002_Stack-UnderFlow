@@ -19,7 +19,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via chamada online
 
 ### **1. Qual o objetivo principal do projeto?**
 
-Criar um aplicativo que auxiliará os moradores da Ilha Primeira a realizar um recenso, coletando e organizando informações que não são coletadas normalmente pelo censo demográfico do IBGE, para aumentar o conhecimento as condições da ilha. O aplicativo deverá se comunicar com uma API que armazenará os dados.
+Criar um aplicativo que auxiliará os moradores da Ilha Primeira a realizar um recenso, coletando e organizando informações que não são coletadas normalmente pelo censo demográfico do IBGE, para aumentar o conhecimento das condições da ilha. O aplicativo deverá se comunicar com uma API que armazenará os dados.
 
 ---
 
