@@ -35,6 +35,12 @@ O aplicativo deverá se conectar com a API via métodos GET e POST pelo servidor
 
 ---
 
+### **4. Quais serão os tipos de dados armazenados na API?**
+
+Na API, serão armazenados dados que vão mais a fundo no contexto específico da ilha, tratando da população local, segurança, qualidade de vida e do território da ilha. O foco será em informações que não foram coletadas por censos mais gerais, como os do IBGE.
+
+---
+
 ### Requisitos elicitados
 
 |ID|Descrição|
