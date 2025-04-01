@@ -26,7 +26,6 @@
 ### Criação de conta no sistema
 
 - Atores:
-    - Usuário
     - Administrador
     - Sistema
 - Pré-condições:
@@ -42,8 +41,6 @@
         - 2a1. Sistema exibe uma mensagem de erro e permite que outro E-mail seja inserido.
     - 2b. Senha atribuída não cumpre os requisitos mínimos do sistema.
         - 2b1. Sistema exibe uma mensagem de erro e permite que outra senha seja inserida.
-    - 2c. E-mail inserido já está atribuído a outra conta.
-        - 2c1. Sistema informa que o E-mail já pertence a uma conta e permite que outro E-mail seja inserido.
 
 ---
 
@@ -75,7 +72,7 @@
 - Pré-condições:
     - Usuário está logado
 - Fluxo Básico:
-    1. Usuário clica na opção de “Log out”
+    1. Usuário seleciona a opção de “Log out”
     2. Usuário é deslogado do sistema
 - Fluxo Alternativo:
     - Nenhum
@@ -90,9 +87,10 @@
 - Pré-condições:
     - O administrador está logado
 - Fluxo Básico:
-    1. Administrador clica na opção de excluir conta
-    2. Administrador insere sua senha como código de confirmação
-    3. A conta é excluída
+    1. Administrador seleciona uma conta existente
+    2. Administrador seleciona a opção de excluir conta
+    3. Administrador insere sua senha como código de confirmação
+    4. A conta é excluída
 - Fluxo Alternativo:
     - 2a. Senha inserida pelo Administrador incorreta
         - 2a1. O sistema exibe uma mensagem de “senha incorreta” e permite que o usuário insira outra senha.
