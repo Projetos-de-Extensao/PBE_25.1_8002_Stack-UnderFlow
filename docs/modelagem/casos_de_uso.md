@@ -9,7 +9,7 @@ title: Casos de Uso
 
 ### Conta
 
-- [Criação (por Administrador)](#criacao-de-conta-no-sistema)
+- [Criação](#criacao-de-conta-no-sistema)
 - [Log in](#log-in-no-sistema)
 - [Log out](#log-out-no-sistema)
 - [Exclusão](#exclusao-de-conta)
@@ -17,10 +17,9 @@ title: Casos de Uso
 
 ### Dados
 
-- Inserção
-- Remoção (apenas por administrador)
-- Visualização (deve poder ser realizada até mesmo por usuários não logados)
-- Organização
+- [Inserção](#insercao-de-dado)
+- [Exclusão](#exclusao-de-dado)
+- [Visualização](#visualizacao)
 
 ---
 
@@ -94,8 +93,9 @@ title: Casos de Uso
 - Fluxo Básico:
     1. Administrador seleciona uma conta existente
     2. Administrador seleciona a opção de excluir conta
-    3. Administrador insere sua senha como código de confirmação
-    4. A conta é excluída
+    3. Sistema exibe um painel e requere a senha do administrador como código de confirmação
+    4. Administrador insere sua senha como código de confirmação
+    5. A conta é excluída
 - Fluxo Alternativo:
     - 2a. Senha inserida pelo Administrador incorreta
         - 2a1. O sistema exibe uma mensagem de “senha incorreta” e permite que o usuário insira outra senha.
@@ -127,3 +127,59 @@ title: Casos de Uso
         - 2c2. Sistema envia um novo código de verificação ao E-mail registrado
 
 ---
+
+### Inserção de dado
+
+- Atores
+    - Recenseador
+    - Administrador
+    - Sistema
+- Pré-condições:
+    - O usuário está logado como recenseador ou administrador
+- Fluxo Básico:
+    1. Usuário clica na opção de adicionar dado
+    2. Sistema exibe uma tela para o preenchimento das informações sobre o dado
+    3. Usuário preenche os campos e confirma a criação do dado
+    4. Sistema registra o dado e suas informações
+- Fluxo Alternativo:
+    - 2a. Usuário confirma a criação do dado sem preencher todos os campos de informação
+        - 2a1. Sistema exibe uma mensagem de erro e permite que o usuário preencha os campos faltando
+
+---
+
+### Exclusão de dado
+
+- Atores
+    - Administrador
+    - Sistema
+- Pré-condições:
+    - O usuário está logado como administrador
+- Fluxo Básico:
+    1. Administrador clica na opção de excluir dado
+    2. Sistema exibe um painel e requere a senha do administrador como código de confirmação
+    3. Administrador insere sua senha como código de confirmação
+    4. Sistema exclui o dado de seus registros
+- Fluxo Alternativo:
+    - 2a. Administrador insere uma senha incorreta
+        - 2a1. Sistema exibe uma mensagem “senha incorreta” e permite que o administrador insira outra senha
+
+---
+
+### Visualização
+
+- Atores
+    - Usuário
+    - Sistema
+- Pré-condições:
+    - O sistema possui dados disponíveis
+- Fluxo Básico:
+    1. Usuário acessa o dashboard de dados
+    2. Sistema monta o dashboard com base nos seus dados armazenados
+    3. Sistema exibe o dashboard
+- Fluxo Alternativo:
+    - 2a. Sistema não possui dados disponíveis
+        - 2a1. Sistema exibe uma mensagem informando sobre a falta de dados
+        - 2a.2 Sistema exibe uma opção de voltar para a página anterior
+    - 2b. Sistema falha no carregamento dos dados do dashboard
+        - 2b1. Sistema exibe uma mensagem de erro
+        - 2a.2 Sistema exibe uma opção para recarregar a página e outra para retornar à página anterior
