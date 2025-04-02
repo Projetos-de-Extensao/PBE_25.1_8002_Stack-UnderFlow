@@ -1,0 +1,59 @@
+@startsalt Prototipo
+{
+  {^
+    <b>Dashboard - Censo Demográfico</b>  |  [Login]
+  }
+  {
+    [🔍 Buscar...] | [Filtros ▼]
+  }
+  {
+    📊 População Total: 1,200 | 🏠 Domicílios: 500
+    👥 Idade Média: 35 anos | 💼 Taxa de Emprego: 75%
+    🎓 Escolaridade Média: Ensino Médio
+  }
+  {
+    [Visualizar Detalhes] | [Exportar Dados]
+  }
+}
+@endsalt
+
+@startsalt Admin
+{
+  {^
+    <b>Painel do Administrador</b>  | [Sair]
+  }
+  {
+    [📊 Visualizar Dashboard]
+    [➕ Adicionar Dados]
+    [🗑️ Remover Dados]
+    [👤 Criar Conta]
+    [📋 Dados da conta]
+  }
+}
+@endsalt
+
+@startsalt Recenseador
+{
+  {^
+    <b>Painel do Recenseador</b>  | [Sair]
+  }
+  {
+    [📊 Visualizar Dashboard]
+    [➕ Adicionar Dados]
+    [📋 Dados da conta]
+  }
+}
+@endsalt
+
+@startsalt Pesquisa
+{
+  {^
+    <b>Pesquisa do censo</b>  | [Sair]
+  }
+  {
+    Categoria(s):  [➕]
+    Título do dado: _____________________________________________
+    Conteúdo: _____________________________________________
+  }
+}
+@endsalt
