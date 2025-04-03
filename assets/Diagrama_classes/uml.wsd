@@ -1,0 +1,31 @@
+@startuml FastDelivery_DiagramaClasses
+
+class Admnistrador {
+
+}
+
+class Recenseador {
+
+}
+
+class Usuário {
+
+}
+
+class Dados_censo {
+
+}
+
+class Pesquisa {
+
+}
+
+' Relacionamentos
+Admnistrador -- Dados_censo
+Admnistrador -- Pesquisa
+Recenseador -- Dados_censo
+Recenseador -- Pesquisa
+Usuário -- Dados_censo
+Pesquisa -- Dados_censo
+
+@enduml
