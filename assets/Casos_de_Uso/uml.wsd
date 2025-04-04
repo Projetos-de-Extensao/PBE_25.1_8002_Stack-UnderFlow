@@ -1,0 +1,48 @@
+@startuml FastDelivery_CasosDeUso
+
+left to right direction
+skinparam actorStyle awesome
+
+actor Usuário
+actor Administrador
+actor Recenseador
+actor Sistema
+
+usecase (Criar conta) as UC1
+usecase (Realizar Login) as UC2
+usecase (Realizar Logout) as UC3
+usecase (Excluir de conta) as UC4
+usecase (Alterar dados da conta) as UC5
+
+usecase (Inserir dados) as UC6
+usecase (Excluir dados) as UC7
+usecase (Visualizar dados) as UC8
+
+Administrador --> UC1
+Administrador --> UC2
+Administrador --> UC3
+Administrador --> UC4
+Administrador --> UC5
+Administrador --> UC6
+Administrador --> UC7
+Administrador --> UC8
+
+UC2 <-- Recenseador
+UC3 <-- Recenseador
+UC5 <-- Recenseador
+UC6 <-- Recenseador
+UC8 <-- Recenseador
+
+UC1 <-- Sistema
+UC2 <-- Sistema
+UC3 <-- Sistema
+UC4 <-- Sistema
+UC5 <-- Sistema
+UC6 <-- Sistema
+UC7 <-- Sistema
+UC8 <-- Sistema
+
+Usuário --> UC8
+
+
+@enduml
