@@ -10,7 +10,7 @@ A construção do protótipo auxilia a equipe de desenvolvimento a entender melh
 
 ## Metodologia
 
-Iniciamos o protótipo através dos levantamentos iniciais da equipe, utliziando a ferramenta PlantUML para criar os designs iniciais de forma simples e facilmente versionável.
+Iniciamos o protótipo através dos levantamentos iniciais da equipe, utlizando a ferramenta PlantUML para criar os designs iniciais de forma simples e facilmente versionável.
 
 ![![Protótipo Dashboard](../assets/Prototipo/dashboard.png)](../assets/Prototipo/dashboard.png)
 
