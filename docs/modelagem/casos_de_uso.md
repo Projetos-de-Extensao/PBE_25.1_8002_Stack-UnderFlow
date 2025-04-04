@@ -51,7 +51,8 @@ title: Casos de Uso
 ### Log in no sistema
 
 - Atores
-    - Usuário
+    - Administrador
+    - Recenseador
     - Sistema
 - Pré-condições:
     - Usuário possui uma conta
@@ -71,7 +72,8 @@ title: Casos de Uso
 ### Log out no sistema
 
 - Atores
-    - Usuário
+    - Administrador
+    - Recenseador
     - Sistema
 - Pré-condições:
     - Usuário está logado
@@ -105,7 +107,8 @@ title: Casos de Uso
 ### Alteração de senha
 
 - Atores
-    - Usuário
+    - Administrador
+    - Recenseador
     - Sistema
 - Pré-condições:
     - O usuário possui uma conta
@@ -183,3 +186,9 @@ title: Casos de Uso
     - 2b. Sistema falha no carregamento dos dados do dashboard
         - 2b1. Sistema exibe uma mensagem de erro
         - 2a.2 Sistema exibe uma opção para recarregar a página e outra para retornar à página anterior
+
+---
+
+## Diagrama de Casos de Uso
+
+![![Diagrama de Casos de Uso](../assets/Casos_de_Uso/diagrama_casos_de_uso.jpg)](../assets/Casos_de_Uso/diagrama_casos_de_uso.jpg)
