@@ -1,17 +1,38 @@
-# Welcome to MkDocs
+# Stack-UnderFlow
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+**Número do Grupo**: II<br>
+**Turma**: 8002<br>
 
-## Commands
+## Alunos
+|Matrícula | Aluno |
+| -- | -- |
+| 202401000833  |  Eduardo Peruzzo |
+| 202401000493  |  Pedro dos Santos |
+| 202402159216  |  Vinicius da Luz |
+| 202402898892  |  Bárbara Malta |
+| 202403184672  |  Mateus Sachinho |
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Mapa mental
 
-## Project layout
+[Mapa mental no canva](https://www.canva.com/design/DAGi2i6MryE/OP75rrcf3gHED32h_s2GKg/view?utm_content=DAGi2i6MryE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h5929975859)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Sobre 
+Descreva o seu projeto em linhas gerais. 
+
+## Screenshots
+Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
+
+## Instalação 
+**Linguagens**: xxxxxx<br>
+**Tecnologias**: xxxxxx<br>
+Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+Insira um manual ou um script para auxiliar ainda mais.
+
+## Uso 
+Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+
+## Vídeo
+Adicione 1 ou mais vídeos com a execução do projeto final.
+
+## Outros 
+Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
