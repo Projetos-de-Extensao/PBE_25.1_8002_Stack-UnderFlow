@@ -8,7 +8,7 @@ Pesquisa realizada para compreensão das principais características do projeto
 
 * Crescimento populacional
 
-* Territírio: 
+* Território: 
     * área 
     * densidade demográfica
 

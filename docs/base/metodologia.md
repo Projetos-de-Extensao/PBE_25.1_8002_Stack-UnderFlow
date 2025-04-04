@@ -28,9 +28,7 @@ POO (OOP) é uma...
 O Rational Unified Process é um Processo de Engenharia de Software. Ele fornece....
 <p>
  
-- [Kanban](https://www...):</p>
-   O sistema kanban é uma metodologia ágil....
-<p align = "justify">
+
  
  
 ## Metodologias de desenvolvimento:
