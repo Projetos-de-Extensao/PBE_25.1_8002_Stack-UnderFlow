@@ -12,10 +12,10 @@ A construção do protótipo auxilia a equipe de desenvolvimento a entender melh
 
 Iniciamos o protótipo através dos levantamentos iniciais da equipe, utlizando a ferramenta PlantUML para criar os designs iniciais de forma simples e facilmente versionável.
 
-![![Protótipo Dashboard](../assets/Prototipo/dashboard.png)](../assets/Prototipo/dashboard.png)
+![![Protótipo Dashboard](../../assets/Prototipo/dashboard.png)](../../assets/Prototipo/dashboard.png)
 
-![![Protótipo Dashboard](../assets/Prototipo/adm.png)](../assets/Prototipo/adm.png)
+![![Protótipo Dashboard](../../assets/Prototipo/adm.png)](../../assets/Prototipo/adm.png)
 
-![![Protótipo Dashboard](../assets/Prototipo/recenseador.png)](../assets/Prototipo/recenseador.png)
+![![Protótipo Dashboard](../../assets/Prototipo/recenseador.png)](../../assets/Prototipo/recenseador.png)
 
-![![Protótipo Dashboard](../assets/Prototipo/pesquisa.png)](../assets/Prototipo/pesquisa.png)
+![![Protótipo Dashboard](../../assets/Prototipo/pesquisa.png)](../../assets/Prototipo/pesquisa.png)

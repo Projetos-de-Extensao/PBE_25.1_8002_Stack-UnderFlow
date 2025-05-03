@@ -18,7 +18,7 @@ Para a criação da primeira versão do diagrama de classes, a equipe utilizou o
 
 ### Versão 1.0
 
-![![Diagrama de Classes](../assets/Diagrama_classes/diagrama1.png)](../assets/Diagrama_classes/diagrama1.png)
+![![Diagrama de Classes](../../assets/Diagrama_classes/diagrama1.png)](../../assets/Diagrama_classes/diagrama1.png)
 
 
 #### Rastreabilidade de Requisitos

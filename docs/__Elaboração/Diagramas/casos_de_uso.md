@@ -191,4 +191,4 @@ title: Casos de Uso
 
 ## Diagrama de Casos de Uso
 
-![![Diagrama de Casos de Uso](../assets/Casos_de_Uso/diagrama_casos_de_uso.jpg)](../assets/Casos_de_Uso/diagrama_casos_de_uso.jpg)
+![![Diagrama de Casos de Uso](../../assets/Casos_de_Uso/diagrama_casos_de_uso.jpg)](../../assets/Casos_de_Uso/diagrama_casos_de_uso.jpg)
