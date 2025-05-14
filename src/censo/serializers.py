@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from censo.models import Morador, Indicadores
+from censo.models import Morador, Indicadores, Domicilio
 
 class MoradorSerializer(serializers.ModelSerializer):
     class Meta:
@@ -9,4 +9,11 @@ class MoradorSerializer(serializers.ModelSerializer):
 class IndicadoresSerializer(serializers.ModelSerializer):
     class Meta:
         model = Indicadores
+        fields = "__all__"
+
+
+
+class DomicilioSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Domicilio
         fields = "__all__"
