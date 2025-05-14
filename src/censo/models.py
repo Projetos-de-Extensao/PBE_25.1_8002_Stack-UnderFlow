@@ -68,19 +68,19 @@ class Morador(models.Model):
     num_dependentes = models.IntegerField(default=0, null=True, blank=True)
     religiao = models.CharField(max_length=50, choices=RELIGIAO_CHOICES, null=True, blank=True)
 
-    
-    def str(self):
-        return self.cpf
-    
+
+    def __str__(self):
+        return f"{self.nome} {self.sobrenome}: {self.cpf}"
+
 class Indicadores(models.Model):
     pergunta = models.CharField(max_length=100)
     resposta = models.TextField()
     descricao = models.TextField(blank=True, null=True)
-  
+
     def __str__(self):
         return self.pergunta
-    
-    
+
+
 class Domicilio(models.Model):
 
     Especie_CHOICES =[
@@ -135,13 +135,13 @@ class Domicilio(models.Model):
         ('Vala', 'Vala'),
         ('Outro', 'Outro'),
         ]
-    
+
     DISTRIBUICAO_AGUA_CHOICES = [
         ('Encanada até dentro da moradia', 'Encanada até dentro da moradia'),
         ('Encanada, mas apenas terreno ou quintal', 'Encanada, mas apenas terreno ou quintal'),
         ('Não encanada', 'Não encanada'),
         ]
-    
+
     LIXO_CHOICES = [
         ('Coletado pela prefeitura', 'Coletado pela prefeitura'),
         ('Coletado por empresa particular', 'Coletado por empresa particular'),
@@ -151,35 +151,23 @@ class Domicilio(models.Model):
         ('Jogado em rio, lago, córrego ou represa', 'Jogado em rio, lago, córrego ou represa'),
         ('Outro', 'Outro'),
         ]
-    
-    proprietario = models.ForeignKey(Morador, related_name='Proprietário', on_delete=models.CASCADE)
+
+    proprietario = models.ForeignKey(Morador, related_name='domicilios', on_delete=models.CASCADE, null=True, blank=True)
     uf = models.CharField (max_length=2)
-    municipio = models.TextField
-    distrito = models.TextField
-    subdistrito = models.TextField
-    setor = models.TextField
-    numero = models.CharField (max_length=10)
+    municipio = models.TextField()
+    distrito = models.TextField()
+    subdistrito = models.TextField()
+    setor = models.TextField()
+    numero = models.IntegerField()
     especie = models.TextField(choices=Especie_CHOICES, null=True, blank=True)
     tipo = models.TextField(choices=Tipo_CHOICES)
-    quantidade_comodos = models.IntegerField()  
-    acesso_internet = models.BooleanField(default=False)  
-    abastecimento_agua = models.TextField(choices=ABASTECIMENTO_CHOICES)  
-    coleta_esgoto = models.TextField(choices=ESGOTO_CHOICES)  
-    distribuicao_agua = models.TextField(choices=DISTRIBUICAO_AGUA_CHOICES) 
+    quantidade_comodos = models.IntegerField()
+    acesso_internet = models.BooleanField(default=False)
+    abastecimento_agua = models.TextField(choices=ABASTECIMENTO_CHOICES)
+    coleta_esgoto = models.TextField(choices=ESGOTO_CHOICES)
+    distribuicao_agua = models.TextField(choices=DISTRIBUICAO_AGUA_CHOICES)
     lixo_destino = models.TextField (choices=LIXO_CHOICES)
-    energia_eletrica = models.BooleanField(default=False)  
+    energia_eletrica = models.BooleanField(default=False)
 
-
-class Indicadores(models.Model):
-    pergunta = models.CharField(max_length=100)
-    resposta = models.TextField()
-    descricao = models.TextField(blank=True, null=True)
-
-    def str(self):
-        return self.pergunta
-    
-
-
-
-
-# Create your models here.
+    def __str__(self):
+        return str(self.proprietario)

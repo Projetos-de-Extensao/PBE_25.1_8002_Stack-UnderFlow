@@ -1,4 +1,3 @@
-# myapp/api_urls.py
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from censo.api import MoradorViewSet, IndicadoresViewSet, DomicilioViewSet

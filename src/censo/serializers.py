@@ -5,13 +5,11 @@ class MoradorSerializer(serializers.ModelSerializer):
     class Meta:
         model = Morador
         fields = "__all__"
-        
+
 class IndicadoresSerializer(serializers.ModelSerializer):
     class Meta:
         model = Indicadores
         fields = "__all__"
-
-
 
 class DomicilioSerializer(serializers.ModelSerializer):
     class Meta:
