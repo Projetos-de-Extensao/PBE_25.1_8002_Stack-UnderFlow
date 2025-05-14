@@ -1,4 +1,4 @@
 from django.contrib import admin
-from .models import DadosCenso
+from .models import Morador
 
-admin.site.register(DadosCenso)
+admin.site.register(Morador)

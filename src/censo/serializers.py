@@ -1,10 +1,9 @@
 from rest_framework import serializers
-from censo.models import DadosCenso
+from censo.models import Morador
 
-class DadosCensoSerializer(serializers.ModelSerializer):
+class MoradorSerializer(serializers.ModelSerializer):
     class Meta:
-        model = DadosCenso
-        fields = ['id', 'nome', 'conteudo', 'categorias']
-        read_only_fields = ['id']
-        
-         
+        model = Morador
+        fields = "__all__"
+
+
