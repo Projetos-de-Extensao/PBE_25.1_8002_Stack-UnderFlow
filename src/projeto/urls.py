@@ -6,9 +6,9 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="API de Dados",
+      title="API para o censo da Ilha Primeira",
       default_version='v1',
-      description="API para gerenciamento de dados",
+      description="API para gerenciamento dos dados do censo demográfico da Ilha Primeira",
       terms_of_service="https://www.google.com/policies/terms/",
       contact=openapi.Contact(email="contato@empresa.com"),
       license=openapi.License(name="BSD License"),
@@ -19,7 +19,7 @@ schema_view = get_schema_view(
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('censo.urls')),  # URLs tradicionais
+    path('', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),  # URLs tradicionais
     path('api/', include('censo.api_urls')),  # URLs da API
     path('api-auth/', include('rest_framework.urls')),  # Login para a API
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
