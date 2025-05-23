@@ -12,20 +12,58 @@ class Usuário {
 
 }
 
-class Dados_censo {
-
+class Morador {
+    cpf
+    nome
+    sobrenome
+    cep
+    num_casa
+    sexo
+    renda
+    data_nascimento
+    estado_civil
+    etnia
+    escolaridade
+    email
+    telefone
+    nacionalidade
+    deficiencia
+    num_dependentes
+    religiao
 }
 
-class Pesquisa {
+class Domicilio {
+    proprietario
+    uf
+    municipio
+    distrito
+    subdistrito
+    setor
+    numero
+    especie
+    tipo
+    quantidade_comodos
+    acesso_internet
+    abastecimento_agua
+    coleta_esgoto
+    distribuicao_agua
+    lixo_destino
+    energia_eletrica
+}
 
+class Indicadores {
+    pergunta
+    resposta
+    descricao
 }
 
 ' Relacionamentos
-Admnistrador -- Dados_censo
-Admnistrador -- Pesquisa
-Recenseador -- Dados_censo
-Recenseador -- Pesquisa
-Usuário -- Dados_censo
-Pesquisa -- Dados_censo
+Admnistrador -- Morador
+Admnistrador -- Indicadores
+Admnistrador -- Domicilio
+Recenseador -- Morador
+Recenseador -- Indicadores
+Recenseador -- Domicilio
+Usuário -- Indicadores
 
 @enduml
