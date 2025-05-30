@@ -3,6 +3,7 @@ from django.urls import path, include
 from rest_framework import permissions
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
+from rest_framework.authtoken.views import obtain_auth_token
 
 schema_view = get_schema_view(
    openapi.Info(
@@ -24,5 +25,13 @@ urlpatterns = [
     path('api-auth/', include('rest_framework.urls')),  # Login para a API
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
+    path('api/token/', obtain_auth_token, name='api_token_auth'),
+
 ]
 
+INSTALLED_APPS = [
+    # ...outros apps...
+    'rest_framework',
+    'rest_framework.authtoken',
+    # ...outros apps...
+]
