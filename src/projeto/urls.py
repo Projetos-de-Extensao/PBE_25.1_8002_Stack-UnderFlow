@@ -26,12 +26,5 @@ urlpatterns = [
     path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
     path('api/token/', obtain_auth_token, name='api_token_auth'),
-
 ]
 
-INSTALLED_APPS = [
-    # ...outros apps...
-    'rest_framework',
-    'rest_framework.authtoken',
-    # ...outros apps...
-]
