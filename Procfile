@@ -1,2 +1,2 @@
-release: release: python src/manage.py migrate && python src/manage.py collectstatic --no-input
+release: python manage.py migrate && python manage.py collectstatic --no-input
 web: gunicorn projeto.wsgi
