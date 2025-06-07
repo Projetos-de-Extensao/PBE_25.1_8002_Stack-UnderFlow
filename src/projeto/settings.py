@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+    'whitenoise.runserver_nostatic'
     'django.contrib.staticfiles',
     'censo',
     'corsheaders',
