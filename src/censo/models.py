@@ -149,7 +149,7 @@ class Morador(models.Model):
     nome = models.CharField(max_length=30)
     sobrenome = models.CharField(max_length=100)
     cep = models.CharField(max_length=8)
-    num_casa = models.IntegerField()
+    num_casa = models.TextField()
     sexo = models.TextField(choices=SEXO_CHOICES)
     renda = models.TextField(choices=RENDA_CHOICES, null=True, blank=True)
     data_nascimento = models.DateField()
@@ -318,7 +318,7 @@ class Domicilio(models.Model):
         ('Jogado em rio, lago, córrego ou represa', 'Jogado em rio, lago, córrego ou represa'),
         ('Outro', 'Outro'),
         ]
-    
+
     RUA_CHOICES = [
         ("R. Marina do Sol"),
         ("R. Marina do Frade"),
