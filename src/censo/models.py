@@ -149,7 +149,7 @@ class Morador(models.Model):
     nome = models.CharField(max_length=30)
     sobrenome = models.CharField(max_length=100)
     cep = models.CharField(max_length=8)
-    num_casa = models.TextField()
+    num_casa = models.IntegerField()
     sexo = models.TextField(choices=SEXO_CHOICES)
     renda = models.TextField(choices=RENDA_CHOICES, null=True, blank=True)
     data_nascimento = models.DateField()
