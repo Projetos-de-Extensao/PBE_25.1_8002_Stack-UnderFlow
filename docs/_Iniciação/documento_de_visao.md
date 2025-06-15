@@ -2,86 +2,90 @@
 id: documento_de_visao
 title: Documento de Visão
 ---
+
 ## Introdução
 
-<p align = "justify">
-O propósito deste documento é fornecer uma visão geral sobre o projeto que será realizado na disciplina Arquitetura e Desenho de Software 2020/1, na Universidade de Brasília. Sendo assim, Nesse documento serão descritas de maneira resumida as principais funcionalidades, usabilidades, o problema que será abordado e os objetivos da equipe.
+<p align="justify">
+O presente documento tem como objetivo fornecer uma visão geral do projeto <b>Stack-UnderFlow</b>, desenvolvido pelos alunos do Ibmec no período 2025.1. Este projeto tem aplicação prática, sendo desenvolvido para atender às necessidades da <b>Associação de Moradores da Ilha Primeira</b>. O sistema busca auxiliar na organização, coleta e gestão dos dados demográficos da comunidade, além de servir como uma ferramenta de apoio para planejamento e tomada de decisões.
 </p>
 
-## Descrição do Problema 
+## Descrição do Problema
 
-<p align = "justify">
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+<p align="justify">
+A Associação de Moradores da Ilha Primeira enfrenta desafios para realizar o levantamento e a gestão de dados sobre os moradores e os domicílios da região. A ausência de um sistema estruturado dificulta o acompanhamento das condições habitacionais, sociais e de infraestrutura da comunidade, impactando diretamente a capacidade de planejar ações, solicitar serviços públicos e implementar melhorias locais.
 </p>
 
 ### Problema
 
-Dificuldade em gerenciar e organizar...
+Dificuldade na coleta, organização e gestão dos dados demográficos e habitacionais da Ilha Primeira.
 
 ### Impactados
 
-Usuários....
+- Associação de Moradores da Ilha Primeira.
+- Lideranças comunitárias.
+- Moradores da Ilha Primeira.
+- Órgãos públicos e parceiros que utilizem os dados para apoiar a comunidade.
 
 ### Consequência
 
-A criação de novos....
+- Falta de dados organizados sobre a população e as moradias.
+- Dificuldade em realizar diagnósticos precisos sobre as necessidades da comunidade.
+- Limitações na comunicação com órgãos públicos e na solicitação de melhorias para a região.
 
 ### Solução
 
-Utilizar a aplicação que será desenvolvida visando resolver...
+Desenvolvimento de um sistema web, utilizando o framework Django, que permita:
+- Cadastrar moradores e domicílios de forma estruturada.
+- Consultar, atualizar e remover registros.
+- Gerar relatórios e ter acesso rápido às informações da comunidade.
+- Apoiar a tomada de decisões e o planejamento da associação.
 
 ## Objetivos
 
-<p align = "justify">
-O objetivo da equipe de desenvolvimento é fornecer...
+<p align="justify">
+O objetivo principal é fornecer uma ferramenta tecnológica que permita à Associação de Moradores da Ilha Primeira manter um cadastro atualizado dos moradores, domicílios e características da comunidade. Isso facilitará o diagnóstico das condições locais, a organização interna da associação e a interlocução com autoridades públicas, além de apoiar projetos sociais e comunitários.
 </p>
 
-## Descrição do Usuário 
+## Recursos do Produto
 
-<p align = "justify">
-Os usuários serão....
+### Cadastro de Domicílios
+
+<p align="justify">
+Permite o registro de informações detalhadas sobre os domicílios da Ilha Primeira, incluindo localização (UF, município, setor, distrito, subdistrito), tipo de moradia, quantidade de cômodos, disponibilidade de serviços básicos (água, esgoto, energia elétrica, internet, coleta de lixo) e outras características relevantes.
 </p>
 
-## Recursos do produto
+### Cadastro de Moradores
 
-### Conta
-
-<p align = "justify">
-O cliente poderá realizar seu cadastro....
+<p align="justify">
+Permite cadastrar moradores vinculados a domicílios, com informações como nome, CPF, idade, gênero, situação ocupacional, escolaridade e outras informações sociodemográficas necessárias para a gestão da comunidade.
 </p>
 
-### Loja
+### Cadastro de Indicadores
 
-<p align = "justify">
-O cliente poderá cadastrar uma loja única....
+<p align="justify">
+Permite cadastrar indicadores relevantes que não poderiam ser associados à tabelas com dados específicos, como Morador e Domicílio. Esse cadastro inclui uma pergunta, uma resposta a essa pergunta, e uma descrição relacionada.
 </p>
 
-### Produto
+### Pesquisa e Gerenciamento
 
-<p align = "justify">
-O cliente poderá cadastrar....
+<p align="justify">
+Permite pesquisar registros de moradores e domicílios, realizar filtros, acessar detalhes e gerar relatórios. Inclui funcionalidades para atualização e exclusão dos dados.
 </p>
 
-### Pesquisa sobre Lojas
+### Interface Administrativa
 
-<p align = "justify">
-O cliente poderá pesquisar...
+<p align="justify">
+A interface administrativa do Django permite um gerenciamento completo, sendo adaptada para atender às necessidades da associação, garantindo facilidade de uso, segurança e eficiência no controle dos dados.
 </p>
 
 ## Restrições
 
-<p align = "justify">
-A aplicação não será responsável...
-</p>
+- O banco de dados utilizado inicialmente é SQLite para facilitar a instalação local, mas pode ser migrado para PostgreSQL ou outro SGBD para produção.
+- O sistema requer acesso à internet local para funcionamento em rede, mas pode ser configurado para uso offline, dependendo da infraestrutura disponível.
 
 ## Referências Bibliográficas
 
-> Documento de visão. Disponível em https://www... Acesso em dd/MM/yyYY
-
-> Documento de visão. Disponível em  Acesso em dd/MM/yyYY
-
-## Versionamento
-| Data | Versão | Descrição | Autor(es) |
-| -- | -- | -- | -- |
-| DD/MM/YYYY | 1.0 | Criação do documento | XXX XXXX e ZZZ ZZZZ | 
-
+> Django Documentation. Disponível em: https://docs.djangoproject.com/
+> MkDocs Documentation. Disponível em: https://www.mkdocs.org/
+> IBGE — Instituto Brasileiro de Geografia e Estatística. Disponível em: https://www.ibge.gov.br/
+> Documentação de Visão — Engenharia de Software Moderna. Disponível em: https://engsoftmoderna.info/

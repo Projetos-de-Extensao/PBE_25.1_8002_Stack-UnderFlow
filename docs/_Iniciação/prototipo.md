@@ -1,6 +1,6 @@
 ---
 id: prototipo
-title: Protótipo
+title: Protótipo de Baixa Fidelidade
 ---
 
 ## Introdução

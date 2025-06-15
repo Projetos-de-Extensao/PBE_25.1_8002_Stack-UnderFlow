@@ -39,38 +39,3 @@ O aplicativo deverá se conectar com a API via métodos GET e POST pelo servidor
 
 Na API, serão armazenados dados que vão mais a fundo no contexto específico da ilha, tratando da população local, segurança, qualidade de vida e do território da ilha. O foco será em informações que não foram coletadas por censos mais gerais, como os do IBGE.
 
----
-
-### Requisitos elicitados
-
-|ID|Descrição|
-|----|-------------|
-|BS01| O cliente...|
-|BS02| O cliente...|
-|BS03| O cliente...|
-|BS04| O cliente...|
-|BS05| O cliente...|
-|BS06| O cliente...|
-|BS07| O cliente...|
-|BS08| O cliente...|
-|BS09| O cliente...|
-|BS10| O produto...|
-|BS11| O produto...|
-|BS12| O produto...|
-|BS13| O produto...|
-|BS14| O produto...|
-|BS15| O produto...|
-
-## Conclusão
-<p align = "justify">
-Através da aplicação da técnica, foi possível elicitar alguns dos primeiros requisitos do projeto.
-</p>
-## Referências Bibliográficas
-
-> BARBOSA, S. D. J; DA SILVA, B. S. Interação humano-computador. Elsevier, 2010.
-
-
-## Autor(es)
-| Data | Versão | Descrição | Autor(es) |
-| -- | -- | -- | -- |
-| 26/03/2025 | 1.0 | Criação do documento | Eduardo Peruzzo, Barbara Malta, Pedro dos Santos, Vinicius da Luz e Mateus Sachinho |
