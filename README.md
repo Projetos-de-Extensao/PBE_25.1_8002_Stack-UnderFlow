@@ -2,6 +2,7 @@
 
 ## Índice
 
+- [Alunos](#alunos)
 - [Mapa Mental](#mapa-mental)
 - [Sobre](#sobre)
 - [Screenshots](#screenshots)
@@ -10,10 +11,10 @@
 - [Vídeo](#vídeo)
 - [Documentação](#documentação)
 
+## Alunos
 **Número do Grupo**: II<br>
 **Turma**: 8002<br>
 
-## Alunos
 |Matrícula | Aluno |
 | -- | -- |
 | 202401000833  |  Eduardo Peruzzo |
