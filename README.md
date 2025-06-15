@@ -81,6 +81,7 @@ Com o projeto rodando em um servidor (seja local ou web), basta consumir a API c
 - api/moradores/
 - api/indicadores/
 - api/domicilios/
+
 Mais detalhes sobre o uso da API e sobre os tipos de dados podem ser vistos no próprio endereço do servidor, no endereço "/swagger".
 
 ## Vídeo
