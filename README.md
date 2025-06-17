@@ -33,10 +33,18 @@ Esse projeto é um sistema desenvolvido como parte do projeto de extensão da di
 O projeto foi desenvolvido utilizando o framework Django (Python), com foco em criar um sistema web funcional, intuitivo e com interface de administração, além de contar com documentação completa via MkDocs.
 
 ## Screenshots
+
+OBS: Screenshots foram tiradas da interface do Django Admin
+
+### Informações de Morador
 ![Campos da tabela Morador](docs/assets/Screenshots/morador-vazio.jpg)
 ![Campos da tabela Morador preenchidos](docs/assets/Screenshots/morador-preenchido.jpg)
+
+### Informações de Domicílio
 ![Campos da tabela Domicilio](docs/assets/Screenshots/domicilio-vazio.jpg)
 ![Campos da tabela Domicilio preenchidos](docs/assets/Screenshots/domicilio-preenchido.jpg)
+
+### Informações de Indicadores
 ![Campos da tabela Indicadores](docs/assets/Screenshots/indicador-vazio.jpg)
 ![Campos da tabela Indicadores preenchidos](docs/assets/Screenshots/indicador-preenchido.jpg)
 
