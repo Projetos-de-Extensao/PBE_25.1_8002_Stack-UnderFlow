@@ -8,7 +8,7 @@ from datetime import datetime
 # --- Configurações da Página ---
 st.set_page_config(layout="wide", page_title="Dashboard Censo - Ilha Primeira")
 
-API_BASE_URL = "http://localhost:8000/api/"
+API_BASE_URL = "https://mysite-sdz6.onrender.com/api/"
 
 # --- Funções Auxiliares ---
 @st.cache_data(ttl=600)
